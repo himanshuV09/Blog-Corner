@@ -62,7 +62,7 @@ const BlogDetails = () => {
                     {changeset===false && <div>{bodys}</div>} {/* Ensure this displays the current content */}
                     <button onClick={handleClickdel}>Delete</button>
                     {!changeset ? (
-                        <button onClick={changesetfunc}>Update</button>
+                        <button onClick={changesetfunc} style={{ margin: '10px'} }>Update</button>
                     ) : (
                         <div>
                             <textarea
